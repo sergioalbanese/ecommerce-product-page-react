@@ -6,8 +6,7 @@ import Button from '../Button/Button';
 
     
 const CollectionsDetail = (props) => {
-    const {products,onAdd} = props;
-    console.log('COLL',props.products)
+    const {products,onAdd} = props;    
     if(products != null) {                       
             return (
                 

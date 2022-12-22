@@ -14,16 +14,16 @@ function Slider(props) {
     const navigationPrevRef = React.useRef(null)
     const navigationNextRef = React.useRef(null)
 
-    const slides = props.images.map((slide) => {
+    const slides = props.images.map((slide,i) => {
         return (
-            <SwiperSlide key={slide.id}>               
+            <SwiperSlide key={`slide_${i}`}>               
                 <img className={'slide__img'} src={slide.image} />                
             </SwiperSlide>
         );
     }); 
-    const thumbs = props.images.map((thumb) => {
+    const thumbs = props.images.map((thumb,i) => {
         return (
-            <SwiperSlide key={thumb.id}>
+            <SwiperSlide key={`thumb_${i}`}>
                 <img className={'thumb__img'} src={thumb.thumb} />                
             </SwiperSlide>
         );

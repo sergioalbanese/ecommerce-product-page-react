@@ -34,8 +34,7 @@ class Header extends Component {
 
 
     render() {    
-                    
-        console.log('head', this.props.products)
+                        
         return(            
             <div className={`navigation ${this.state.isNavOpen ? 'open' : ''}`}>
                 <img src={this.state.isNavOpen ? '/assets/images/icon-close.svg' : '/assets/images/icon-menu.svg'} onClick={this.toggleNav} className="navigation__hamburger"  alt="menu" />

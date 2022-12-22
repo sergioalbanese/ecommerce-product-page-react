@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 function CartPopup(props) {
 
     const {products, clearCart, visible} = props;    
-    console.log(props)
+    
     return(
         <div className={`cart-popup ${visible ? 'opened' : ''}`}>
             <div className={'cart-popup__head'}>

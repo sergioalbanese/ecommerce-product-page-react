@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Main from './components/Main/Main';
 import './App.scss';
-import { BrowserRouter} from 'react-router-dom';
+import { Router} from 'react-router-dom';
+import history from './components/History/History';
 
 
 class App extends Component {
@@ -9,11 +10,11 @@ class App extends Component {
 
   render() {
     return(
-      <BrowserRouter>
+      <Router history={history}>
         <div>
           <Main />
         </div>
-      </BrowserRouter>
+      </Router>
     )
     
   }
