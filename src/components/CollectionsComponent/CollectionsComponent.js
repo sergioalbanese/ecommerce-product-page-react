@@ -19,7 +19,7 @@ const CollectionsDetail = (props) => {
                             <ProductDetail details={products[0]} />                        
                             <div className="collections-component__actions">
                                 <Counter />                        
-                                <Button onAdd={onAdd} icon={'/assets/images/icon-cart.svg'} label={'Add to cart'}/>
+                                <Button onAdd={onAdd} icon={'/assets/images/icon-cart-white.svg'} label={'Add to cart'}/>
                             </div>
                         </div>
                     </div>
