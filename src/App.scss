@@ -1,0 +1,26 @@
+// styles
+@import './styles/reset.scss';
+@import './styles/mixin.scss';
+@import './styles/fonts.scss';
+@import './styles/colors.scss';
+@import './styles/typography.scss';
+
+// components
+@import './components/HeaderComponent/HeaderComponent.scss';
+@import './components/CollectionsComponent/CollectionsComponent.scss';
+@import './components/ProductDetail/ProductDetail.scss';
+@import './components/Counter/Counter.scss';
+@import './components/Button/Button.scss';
+@import './components/Slider/Slider.scss';
+@import './components/CartPopup/CartPopup.scss';
+@import './components/Cart/Cart.scss';
+@import './components/Avatar/Avatar.scss';
+@import './components/SimplePage/SimplePage.scss';
+
+
+body {
+    font-family: 'Kumbh Sans';
+    font-size: 16px;
+    max-width: 1440px;
+    margin: 0 auto;
+}

@@ -1,0 +1,39 @@
+.collections-component {
+    @include tablet {
+        padding: 20px;
+
+    }
+}
+
+.collections-component__row {
+    display: flex;
+    flex-direction: column;
+
+    @include tablet {
+        flex-direction: row;
+        padding: 50px 30px;
+    }
+    
+    > div {
+        flex: 1;
+    }
+}
+
+.collections-component__product {
+    padding: 25px 25px;
+
+    @include tablet {
+        padding-top: 60px;
+    }
+}
+
+.collections-component__actions {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include tablet {
+        flex-direction: row;
+    }
+}

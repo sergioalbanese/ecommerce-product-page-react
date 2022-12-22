@@ -1,0 +1,18 @@
+.cart {
+    position: relative;
+    cursor: pointer;
+}
+
+.cart__notify {
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    background-color: $orange;
+    color: $white;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 10px;
+    text-align: center;
+}
