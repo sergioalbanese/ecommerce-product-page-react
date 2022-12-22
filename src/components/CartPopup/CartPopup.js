@@ -19,7 +19,7 @@ function CartPopup(props) {
                             {products[0].name}
                             </p>
                             <p className={'cart-popup__body__product-price'}>
-                                {products[0].currency}{products[0].price} x  {products[0].qty} <strong>{Number(products[0].price)* Number(products[0].qty)}</strong>
+                                {products[0].currency}{products[0].price} x  {products[0].qty} <strong>{products[0].currency}{Number(products[0].price)* Number(products[0].qty)}</strong>
                             </p>
                            
                         </div>

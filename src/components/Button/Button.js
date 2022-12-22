@@ -1,10 +1,12 @@
-import React from 'react';
+import {React} from 'react';
 
 function Button(props) { 
     
     const {icon, label, onAdd} = props
+        
     
-    return(       
+    return(    
+        <>
         <button className='button' onClick={onAdd ? onAdd : () => console.log('clicked')}>
             {icon &&
                 <img className='button__icon' src={icon} />
@@ -15,6 +17,7 @@ function Button(props) {
             </span>
             
         </button>
+        </>   
     );
 }
 

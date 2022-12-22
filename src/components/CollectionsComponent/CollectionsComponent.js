@@ -5,7 +5,7 @@ import Counter from '../Counter/Counter';
 import Button from '../Button/Button';
 
     
-const CollectionsDetail = (props) => {
+function CollectionsDetail(props) {
     const {products,onAdd} = props;    
     if(products != null) {                       
             return (
